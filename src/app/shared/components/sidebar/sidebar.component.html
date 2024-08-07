@@ -1,0 +1,17 @@
+<div class="" >
+  <h3>Forecast in Other Cities</h3>
+  <hr>
+  <ul class="p-0">
+    <li *ngFor="let city of cities" class="d-flex justify-content-between py-3 other_city_li">
+     <div class="px-3">
+      <p class="fw-bold">{{city.name}}</p>
+      <small>{{city.cod}}</small>
+     </div>
+      <img class="img-thumbnail other_city_img" [src]="city.icon" alt="">
+     <div class="px-3 text-end ">
+      <p>{{city.temp}}</p>
+      <small>{{city.detail}}</small>
+     </div>
+    </li>
+  </ul>
+</div>

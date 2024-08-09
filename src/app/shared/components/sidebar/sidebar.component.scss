@@ -1,11 +1,20 @@
 .sidebar{
   background-color: #5c5e64;
 }
+
+
+ ul li:nth-child(odd)img{
+    filter: invert(1);
+  }
+
+
 .other_city_img{
   width: 60px;
   height: 60px;
   object-fit: contain;
 }
+
+
 
 .other_city_li > *{
   flex-grow: 1;

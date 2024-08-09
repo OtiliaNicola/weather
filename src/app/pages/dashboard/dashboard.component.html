@@ -4,14 +4,14 @@
       <div class="p-4 mb-4">
         <h2>Forecast in <span>New York, US</span></h2>
         <p>Saaturday, December 17 at 07:13 PM</p>
-        <div class="row align-content-stretch mb-4">
-          <div class="col resumen rounded">
+        <div class="grid align-content-stretch mb-4">
+          <div class="g-col-5 resumen rounded">
             <app-resumen></app-resumen>
           </div>
-          <div  class="col details">
+          <div  class="g-col-4 details">
             <app-details [details]="details"></app-details>
           </div>
-          <div class="col fw-bold">
+          <div class="g-col-3 fw-bold">
             <app-info></app-info>
           </div>
         </div>
@@ -28,4 +28,4 @@
         <app-sidebar [cities]="cities"></app-sidebar>
     </div>
   </div>
-  
+

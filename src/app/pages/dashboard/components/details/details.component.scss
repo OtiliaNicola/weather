@@ -1,10 +1,16 @@
+
+
 .details{
+  border-color: #6b817d!important;
   background-color: #90aea1 ;
 }
 
-
+.detail{
+  border-bottom-color: #6b817d!important;
+}
 
 .detail:last-child {
   margin-bottom: 0px !important;
   padding-bottom: 0px !important;
+  border-bottom: none !important;
 }

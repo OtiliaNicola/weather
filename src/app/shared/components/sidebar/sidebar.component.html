@@ -1,16 +1,16 @@
-<div class="p-4" >
-  <h3 class="py-3">Forecast in Other Cities</h3>
+<div class="p-3" >
+  <h5 class="pb-2">Forecast in Other Cities</h5>
 
   <ul class="p-0">
-    <li *ngFor="let city of cities" class="d-flex justify-content-between py-3 other_city_li border-top">
+    <li *ngFor="let city of cities" class="d-flex justify-content-around py-4 other_city_li border-top">
      <div class="px-3">
-      <p class="fw-bold">{{city.name}}</p>
-      <small>{{city.cod}}</small>
+      <p class="fw-bold mb-0">{{city.name}}</p>
+      <small class="detail-small ">{{city.cod}}</small>
      </div>
       <img class="other_city_img" [src]="city.icon" alt="img-city">
      <div class="px-3 text-end ">
-      <p>{{city.temp}}</p>
-      <small>{{city.detail}}</small>
+      <p class="mb-0">{{city.temp}}</p>
+      <small class="detail-small ">{{city.detail}}</small>
      </div>
     </li>
   </ul>

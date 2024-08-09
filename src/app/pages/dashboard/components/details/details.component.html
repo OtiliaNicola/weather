@@ -1,10 +1,10 @@
-<div class="d-flex flex-column rounded h-100 p-0 details">
-  <div *ngFor="let detail of details"  class="d-flex justify-content-between py-2 detail">
-    <div class="px-3">
-      <p>{{detail.name}}</p>
+<div class="d-flex flex-column border border-4 rounded h-100 p-0 details">
+  <div *ngFor="let detail of details"  class="d-flex justify-content-between  detail border-bottom">
+    <div class="p-2">
+      <p class="my-0">{{detail.name}}</p>
     </div>
-    <div class="px-3 text-end">
-      <p>{{detail.detail}}</p>
+    <div class="p-2 text-end">
+      <p class="my-0 pb-1">{{detail.detail}}</p>
     </div>
   </div>
 </div>

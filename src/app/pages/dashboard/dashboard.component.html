@@ -16,8 +16,8 @@
           </div>
         </div>
 
-        <div class="row">
-          <div *ngFor="let day of days" class="col">
+        <div class="row flex-nowrap content-card ">
+          <div *ngFor="let day of days" class="col card-day">
             <app-card-temperature-day [day]="day" ></app-card-temperature-day>
           </div>
         </div>

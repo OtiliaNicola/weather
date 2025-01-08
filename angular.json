@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/weather",
+            "outputPath": "dist/weather/browser",
             "index": "src/index.html",
             "inlineStyleLanguage": "scss",
             "browser": "src/main.ts",
